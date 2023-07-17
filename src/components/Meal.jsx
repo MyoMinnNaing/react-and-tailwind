@@ -197,6 +197,7 @@ const Meal = () => {
             key={meal.idMeal}
             name={meal.strMeal}
             image={meal.strMealThumb}
+            id={meal.idMeal}
           />
         );
       })}
